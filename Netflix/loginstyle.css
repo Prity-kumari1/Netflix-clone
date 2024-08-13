@@ -1,0 +1,69 @@
+.page{
+    width: 450px;
+    height: 90%;
+    background-color: #0000008f;
+    color: #fff;
+    display: block;
+    margin: auto;
+    position: relative;
+    z-index: 100;
+}
+.main{
+    border-bottom: none;
+}
+.main .box{
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    opacity: 0.46;
+    background-color: rgb(0, 0, 0);
+}
+form{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 60px ;
+    gap: 15px;
+}
+input{
+    padding: 15px;
+    font-size: 16px;
+    background-color: #181817c0;
+    /* background: transparent; */
+    border: 1px solid #afafaf;
+    border-radius: 5px;
+}
+button{
+    padding: 10px;
+    border-radius: 5px;
+}
+p{
+    text-align: center;
+}
+a{
+    color: #fff;
+    font-size: 14px;
+    text-decoration: none;
+}
+section .box{
+    width: 300px;
+    display: block;
+    margin: auto;
+}
+.signUp{
+    font-size: 16px;
+    color: #888888;
+}
+.signUp a{
+    font-size: 16px;
+    color: #fff;
+    text-align: justify;
+}
+section p{
+    color: #888;
+    padding: 10px;
+    text-align: justify;
+    font-size: 12px;
+}
+section p a{
+    color: rgb(0, 0, 219);
+}
